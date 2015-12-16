@@ -16,6 +16,10 @@ TODO
 9. Open saved file and enable macros. You should see the new *Sam's toolkit* group in the toolbar
 10. Save the file as PowerPoint Add-In (\*.ppam). Use the *Sam's toolkit.ppam* filename
 
+More detailed instructions on how to add new toobars
+* [Stack Overflow: How to add tabs to PowerPoint 2010 that call macros] (http://stackoverflow.com/questions/3867400/how-to-add-tabs-to-powerpoint-2010-that-call-macros/3878978#3878978) 
+* [How To Create A PowerPoint 2010 Add-In Using VBA With Custom Buttons In The Ribbon] (http://www.free-power-point-templates.com/articles/create-powerpoint-2010-add-in-with-vba-custom-buttons-ribbon/)
+
 ### How to create Installer file from scratch (Install Sam's toolkit.ppsm)
 1. Start a blank presentation
 2. Import macros and installer picture from `/installer_src` directory
