@@ -1,0 +1,22 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon startFromScratch="false">
+		<tabs>
+			<tab id="Samuli" label="Sam's toolkit">
+				<group id="languageTools" label="Proofing language">
+					<button id="langToFin" label="Set proofing language to Finnish" image="finland" size="large" onAction="ChangeProofingLanguageToFinnish" />
+					<button id="langToEng" label="Set proofing language to English (US)" image="usa" size="large" onAction="ChangeProofingLanguageToEnglishUS" />
+				</group>
+				<group id="saveTools" label="File saving">
+					<button id="saveSelected" label="Save selected slides" image="check7" size="large" onAction="SaveSelectedSlides" />					
+				</group>
+				<group id="resizeTools" label="Object manipulation">
+					<button id="swapObjects" label="Swap selected objects" image="document18" size="large" onAction="SwapObjects" />	
+					<button id="sameSize" label="Make objects same size" image="squares87" size="normal" onAction="ObjectsToSameSize" />
+					<button id="sameWidth" label="Make objects same width" image="tool37" size="normal" onAction="ObjectsToSameWidth" />
+					<button id="sameHeight" label="Make objects same height" image="arrows143" size="normal" onAction="ObjectsToSameHeight" />
+					<button id="square" label="Make objects square" image="size6" size="normal" onAction="MakeObjectsSquare" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
