@@ -1,6 +1,12 @@
 # Sams-PowerPoint-Toolbar
 Sam's PowerPoint Toolbar. New toolbar group with useful buttons and macros. Instructions and toolbar work only in MS Windows. Tested in Windows 10 but likely also works in earlier versions.
 
+### Features
+#### Implemented
+TODO
+#### Backlog
+Fit to slide: resize and crop picture so that it fills the entire slide
+
 ### How to install the toolbar
 TODO
 
