@@ -15,12 +15,18 @@ Sub ChangeProofingLanguage(languageID As MsoLanguageID)
   
     'Set document language for this and future documents
     ActivePresentation.DefaultLanguageID = languageID
-
-    For j = 1 To ActivePresentation.Slides.Count
-        For k = 1 To ActivePresentation.Slides(j).Shapes.Count
-            Call ChangeAllSubShapes(ActivePresentation.Slides(j).Shapes(k), languageID)
-        Next k
-    Next j
+    
+    'Change language for active slide
+    For k = 1 To ActivePresentation.Slides(ActiveWindow.View.Slide.SlideNumber).Shapes.Count
+       Call ChangeAllSubShapes(ActivePresentation.Slides(ActiveWindow.View.Slide.SlideNumber).Shapes(k), languageID)
+    Next k
+    
+    'Change language for all slides
+    'For j = 1 To ActivePresentation.Slides.Count
+    '    For k = 1 To ActivePresentation.Slides(j).Shapes.Count
+    '        Call ChangeAllSubShapes(ActivePresentation.Slides(j).Shapes(k), languageID)
+    '    Next k
+    'Next j
 End Sub
 
 'The language of the shape and all sub-shapes if its a group
