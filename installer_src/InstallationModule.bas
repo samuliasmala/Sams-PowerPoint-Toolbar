@@ -13,7 +13,7 @@ Sub InstallSamsToolkit()
     addinRegPath = regKeyBasePath & "\PowerPoint\AddIns\" & toolbarName
     
     'Check if toolbar file exists
-    sourceFile = ActivePresentation.Path & "\" & toolbarName & ".ppam"
+    sourceFile = ActivePresentation.Path & "\" & toolbarName & " add-in.ppam"
     Set fso = VBA.CreateObject("Scripting.FileSystemObject")
     If Not fso.FileExists(sourceFile) Then
         MsgBox sourceFile & " not found", vbInformation, "Not Found"
