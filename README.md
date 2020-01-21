@@ -1,7 +1,7 @@
 # Sam's PowerPoint Toolbar
 A toolbar group with useful buttons and macros. Tested in Windows 10 but probably also works in earlier Windows versions.
 
-To install the toolbar download `Sam's toolkit add-in.ppam` and  `Install Sam's toolkit.pptm` to same directory, open `Install Sam's toolkit.pptm` and follow the instructions.
+To install the toolbar [download](https://github.com/samuliasmala/Sams-PowerPoint-Toolbar/raw/master/Sams-PowerPoint-Toolbar.zip) and extract `Sam's toolkit add-in.ppam` and  `Install Sam's toolkit.pptm` to same directory, open `Install Sam's toolkit.pptm` and follow the instructions.
 
 ![Toolbar screenshot](https://github.com/samuliasmala/Sams-PowerPoint-Toolbar/raw/master/toolbar-screenshot.png "Toolbar screenshot")
 
